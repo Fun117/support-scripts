@@ -7,7 +7,7 @@
 ![GitHub License](https://img.shields.io/github/license/fun117/support-scripts)
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Fsupport-scripts.fun117.dev%2F)
 
-このプロジェクトは、Minecraftにおけるアイテムやブロックをリサイクル可能にするためのレシピを追加し、新たなクラフト体験を提供するデータパックです。
+このプロジェクトは、Minecraftにおけるプレイヤーの位置情報などの情報を簡単に取得できるようにするデータパックです。
 
 - [バージョン](#バージョン)
 - [使い方](#使い方)
