@@ -1,0 +1,182 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-[var(--black-05)];
+  }
+  body {
+    @apply bg-[var(--black-07)] text-[var(--mc-page-default-color,var(--mc-core-rich-black))];
+  }
+}
+
+.custom-border {
+  border-color: var(--black-05);
+}
+
+hr {
+  opacity: 0.5;
+}
+
+@font-face {
+  font-family: "minecraft";
+  src: url("../../public/unifont-16.0.01.otf");
+}
+.font-minecraft {
+  font-family: minecraft;
+}
+
+.minecraft-arrow-right {
+  background-color: var(--mc-core-rich-black);
+  display: inline-block;
+  content: "";
+  height: 8px;
+  width: 14px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 14px;
+  clip-path: var(--mc-environment-arrow__down_clip-path);
+  transform: rotate(-90deg);
+}
+.minecraft-arrow-left {
+  background-color: var(--mc-core-rich-black);
+  display: inline-block;
+  content: "";
+  height: 8px;
+  width: 14px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 14px;
+  clip-path: var(--mc-environment-arrow__down_clip-path);
+  transform: rotate(90deg);
+}
+
+.minecraft-card-shadow-default {
+  background: var(--black-02);
+  box-shadow: inset 0.25rem -0.25rem 0 var(--mc-core-rich-black),
+    inset -0.25rem 0.25rem 0 var(--mc-core-grey-5);
+}
+.minecraft-card-shadow-banner {
+  background: var(--mc-core-off-black);
+  box-shadow: 0 4px 0 0 var(--mc-core-rich-black) inset,
+    0 -4px 0 0 #3a3735 inset, 4px 0 0 0 #3a3735 inset,
+    -4px 0 0 0 var(--mc-core-rich-black) inset;
+  padding: 24px 32px;
+}
+.minecraft-card-shadow-green {
+  background: var(--mc-core-off-black);
+  box-shadow: inset 0.25rem -0.25rem 0 var(--mc-core-green-2),
+    inset -0.25rem 0.25rem 0 var(--mc-core-green-4);
+}
+
+.minecraft-button-green {
+  color: var(--mc-core-white);
+  background: var(--mc-vanilla-green-5);
+  box-shadow: inset 0 -6px 0 var(--mc-vanilla-green-6),
+    inset 0 6px 0 var(--mc-vanilla-green-4);
+}
+.minecraft-button-green:hover {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    var(--mc-vanilla-green-5);
+}
+.minecraft-button-green:active {
+  background: var(--mc-vanilla-green-6);
+}
+
+.minecraft-button-gold {
+  color: var(--mc-legends-ultra-dark-blue);
+  background: var(--mc-marketplace-gold-3);
+  box-shadow: inset 0 -6px 0 var(--mc-marketplace-gold-4),
+    inset 0 6px 0 var(--mc-marketplace-gold-2);
+}
+.minecraft-button-gold:hover {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    var(--mc-marketplace-gold-2);
+}
+.minecraft-button-gold:active {
+  background: var(--mc-marketplace-gold-4);
+}
+
+.minecraft-button-deepBlue {
+  background: var(--mc-realms-deep-blue-3);
+  box-shadow: inset 0 -6px 0 var(--mc-realms-deep-blue-6),
+    inset 0 6px 0 var(--mc-realms-deep-blue-1);
+}
+.minecraft-button-deepBlue:hover {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    var(--mc-realms-deep-blue-2);
+}
+.minecraft-button-deepBlue:active {
+  background: var(--mc-realms-deep-blue-6);
+}
+
+.minecraft-button-tab:hover {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    var(--mc-core-grey-5);
+}
+.minecraft-button-tab-active {
+  background: var(--mc-core-grey-5);
+  box-shadow: 0 4px 0 0 rgba(255, 255, 255, 0.24) inset,
+    -4px 0 0 0 rgba(255, 255, 255, 0.24) inset,
+    0 -4px 0 0 rgba(0, 0, 0, 0.24) inset, 4px 0 0 0 rgba(0, 0, 0, 0.24) inset;
+}
+.minecraft-button-tab-active:hover {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    var(--mc-core-grey-6);
+}
+
+.minecraft-input {
+  display: flex;
+  height: 48px;
+  padding: 8px 12px;
+  align-items: center;
+  gap: 16px;
+  background: var(--mc-core-grey-6);
+  box-shadow: 0 6px 0 0 rgba(0, 0, 0, 0.5) inset;
+  color: var(--mc-core-grey-1);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.24px;
+  border: 2px solid #898481;
+}
+
+.bg {
+  background: var(--black-07);
+}
+.text {
+  color: var(--mc-page-default-color, var(--mc-core-rich-black));
+}
+
+.minecraft-image-grid-tn {
+  transform: translate3d(0, var(100, -98px), 0);
+  transition: all 0.2s ease-in-out;
+}
+.minecraft-image-grid-tn-body {
+  display: block;
+  background-color: rgba(23, 22, 21, 0.8);
+  padding: 0.875rem 0.75rem 0.25rem 0.75rem;
+  min-height: 120px;
+  text-align: left;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+@media (min-width: 1024px) {
+  .no-scroll {
+    overflow: scroll;
+  }
+}
+
+.scrollbar-none {
+  /* IE(Internet Explorer)・Microsoft Edgeへの対応 */
+  -ms-overflow-style: none;
+  /* Firefoxへの対応 */
+  scrollbar-width: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  /* Google Chrome、Safariへの対応 */
+  display: none;
+}

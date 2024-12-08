@@ -1,0 +1,74 @@
+{
+  "Metadata": {
+    "title": "サポートスクリプト",
+    "description": "このプロジェクトは、Minecraftにおけるプレイヤーの位置情報などの情報を簡単に取得できるようにするデータパックです。"
+  },
+  "PageError": {
+    "title": "不明なエラーが発生",
+    "retry": "リトライ"
+  },
+  "PageNotFound": {
+    "title": "ページが見つかりません"
+  },
+  "Theme": {
+    "Toggle theme": "テーマを切り替える",
+    "Mode": "モード",
+    "Light": "ライト",
+    "Dark": "ダーク",
+    "System": "システム"
+  },
+  "Languages": {
+    "Language": "言語",
+    "Select a language": "言語を選択"
+  },
+  "Footer": {
+    "footerText": "著作権 © 2024 Fun117. 無断複写・転載を禁じます",
+    "items": {
+      "About developer": "開発者について",
+      "owner": "オーナー",
+      "contributors": "貢献者",
+      "links": "リンク"
+    }
+  },
+  "project": {
+    ":title": "サポートスクリプト",
+    ":type": "データパック",
+    "nav": {
+      "items": {
+        "description": "説明",
+        "files": "ファイル",
+        "images": "画像"
+      }
+    },
+    "sidecontent": {
+      "about project": "プロジェクト概要",
+      "created": "作成",
+      "license": "ライセンス",
+      "members": "メンバー",
+      "source code": "ソースコード"
+    }
+  },
+  "pages": {
+    "files": {
+      "coming soon": "近日公開",
+      "created_at": "作成日時",
+      "updated_at": "更新日時",
+      "select game versions": "ゲームバージョンを選択",
+      "game versions": "ゲームバージョン",
+      "all game versions": "すべてのゲームバージョン",
+      "game edition": "ゲームエディション",
+      "select game edition": "ゲームのエディションを選択",
+      "all game edition": "すべてのゲームエディション",
+      "release channel": "リリースチャンネル",
+      "select release channel": "リリースチャンネルを選択",
+      "all release channel": "すべてのリリースチャンネル",
+      "notfound": "見つかりません",
+      "notfound_error": "フィルターに一致するリリースがありません。",
+      "back": "戻る",
+      "download": "ダウンロード",
+      "file details": "ファイルの詳細",
+      "file name": "ファイル名前",
+      "supported versions": "サポートされているバージョン"
+    }
+  }
+}

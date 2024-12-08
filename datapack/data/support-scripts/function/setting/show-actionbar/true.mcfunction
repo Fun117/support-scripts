@@ -1,0 +1,1 @@
+data modify storage datapack/support-scripts setting.show-actionbar set value true

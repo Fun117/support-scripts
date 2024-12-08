@@ -1,0 +1,73 @@
+{
+  "Metadata": {
+    "title": "Support Scripts"
+  },
+  "PageError": {
+    "title": "Unknown error",
+    "retry": "Retry"
+  },
+  "PageNotFound": {
+    "title": "Page not found"
+  },
+  "Theme": {
+    "Toggle theme": "Toggle theme",
+    "Mode": "Mode",
+    "Light": "Light",
+    "Dark": "Dark",
+    "System": "System"
+  },
+  "Languages": {
+    "Language": "Language",
+    "Select a language": "Select a language"
+  },
+  "Footer": {
+    "footerText": "Copyright © 2024 Fun117. All rights reserved.",
+    "items": {
+      "About developer": "About Developer",
+      "owner": "Owner",
+      "contributors": "Contributors",
+      "links": "Links"
+    }
+  },
+  "project": {
+    ":title": "Support Scripts",
+    ":type": "Data Pack",
+    "nav": {
+      "items": {
+        "description": "Description",
+        "files": "Files",
+        "images": "Images"
+      }
+    },
+    "sidecontent": {
+      "about project": "About Project",
+      "created": "Created",
+      "license": "License",
+      "members": "Members",
+      "source code": "source code"
+    }
+  },
+  "pages": {
+    "files": {
+      "coming soon": "COMING SOON",
+      "created_at": "Created at",
+      "updated_at": "Updated at",
+      "game versions": "Game Versions",
+      "select game versions": "Select Game Versions",
+      "all game versions": "All Game Versions",
+      "game edition": "Game Edition",
+      "select game edition": "Select Game Edition",
+      "all game edition": "All Game Edition",
+      "release channel": "Release Channel",
+      "select release channel": "Select Release Channel",
+      "all release channel": "All Release Channel",
+      "notfound": "Not Found",
+      "notfound_error": "No releases match the filters.",
+      "back": "Back",
+      "download": "Download",
+      "file details": "File Details",
+      "file name": "File Name",
+      "supported versions": "Supported Versions"
+    }
+  }
+}
