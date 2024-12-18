@@ -22,7 +22,7 @@
 
 ## バージョン
 
-将来的なバージョンアップや互換性の更新については、[リポジトリ](https://github.com/Fun117/support-scripts)の更新情報をご確認ください。
+将来的なバージョンアップや互換性の更新については、[リポジトリ](https://github.com/toakiryu/support-scripts)の更新情報をご確認ください。
 
 ---
 
@@ -69,8 +69,8 @@
 データパックを使用した動画や配信を行う際は、概要欄やコメント欄など視聴者が確認できる場所にクレジットの記載をお願いします。以下は例です：
 
 ```text
-▼ サポートスクリプト / 制作: Fun117
+▼ サポートスクリプト / 制作: 桐生トア
 https://support-scripts.fun117.dev
 ```
 
-二次配布および自作発言は固くお断りしています。不具合やバグの報告は[こちら](https://github.com/Fun117/support-scripts/issues)からお願いいたします。
+二次配布および自作発言は固くお断りしています。不具合やバグの報告は[こちら](https://github.com/toakiryu/support-scripts/issues)からお願いいたします。

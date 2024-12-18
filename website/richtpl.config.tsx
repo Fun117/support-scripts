@@ -18,7 +18,7 @@ const config: Config = {
   baseUrl: "/",
 
   // GitHub deployment configuration
-  organizationName: "fun117", // GitHub organization/user name
+  organizationName: "toakiryu", // GitHub organization/user name
   projectName: "support-scripts", // GitHub repository name
 
   // Internationalization (i18n) configuration
@@ -62,8 +62,8 @@ const config: Config = {
         "nextjs",
         "fun117",
       ],
-      authors: { name: "Fun117", url: "https://fun117.dev" },
-      creator: "Fun117",
+      authors: { name: "toakiryu", url: "https://fun117.dev" },
+      creator: "toakiryu",
       icons: {
         icon: "/datapack/icons/favicon.ico",
         apple: "/datapack/icons/favicon.png",
