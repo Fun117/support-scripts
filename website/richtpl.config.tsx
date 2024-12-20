@@ -12,7 +12,7 @@ const config: Config = {
   favicon: "/datapack/icons/favicon.ico",
 
   // Production URL of the site
-  url: "https://support-scripts.fun117.dev",
+  url: "https://support-scripts.toakiryu.com",
 
   // Base URL pathname (for GitHub Pages deployment)
   baseUrl: "/",
@@ -62,7 +62,7 @@ const config: Config = {
         "nextjs",
         "fun117",
       ],
-      authors: { name: "toakiryu", url: "https://fun117.dev" },
+      authors: { name: "toakiryu", url: "https://toakiryu.com" },
       creator: "toakiryu",
       icons: {
         icon: "/datapack/icons/favicon.ico",
@@ -71,7 +71,7 @@ const config: Config = {
       generator: "Next.js",
       publisher: "Vercel",
       robots: "follow, index",
-      metadataBase: new URL("https://support-scripts.fun117.dev"),
+      metadataBase: new URL("https://support-scripts.toakiryu.com"),
     },
     // Header configuration
     header: {

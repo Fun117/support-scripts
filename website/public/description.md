@@ -1,11 +1,11 @@
 # サポートスクリプト
 
-![GitHub Release](https://img.shields.io/github/v/release/fun117/support-scripts)
-![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/fun117/support-scripts)
-![GitHub Issues or Pull Requests](https://img.shields.io/github/issues-pr/fun117/support-scripts)
-![GitHub Discussions](https://img.shields.io/github/discussions/fun117/support-scripts)
-![GitHub License](https://img.shields.io/github/license/fun117/support-scripts)
-![Website](https://img.shields.io/website?url=https%3A%2F%2Fsupport-scripts.fun117.dev%2F)
+![GitHub Release](https://img.shields.io/github/v/release/toakiryu/support-scripts)
+![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/toakiryu/support-scripts)
+![GitHub Issues or Pull Requests](https://img.shields.io/github/issues-pr/toakiryu/support-scripts)
+![GitHub Discussions](https://img.shields.io/github/discussions/toakiryu/support-scripts)
+![GitHub License](https://img.shields.io/github/license/toakiryu/support-scripts)
+![Website](https://img.shields.io/website?url=https%3A%2F%2Fsupport-scripts.toakiryu.com%2F)
 
 このプロジェクトは、Minecraftにおけるアイテムやブロックをリサイクル可能にするためのレシピを追加し、新たなクラフト体験を提供するデータパックです。
 
@@ -70,7 +70,7 @@
 
 ```text
 ▼ サポートスクリプト / 制作: 桐生トア
-https://support-scripts.fun117.dev
+https://support-scripts.toakiryu.com
 ```
 
 二次配布および自作発言は固くお断りしています。不具合やバグの報告は[こちら](https://github.com/toakiryu/support-scripts/issues)からお願いいたします。
