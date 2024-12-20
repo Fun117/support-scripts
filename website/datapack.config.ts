@@ -11,7 +11,7 @@ const datapack: DataPackConfigProps = {
       avatar: "https://github.com/toakiryu.png",
       username: "ToaKiryu",
       role: "owner",
-      website: "https://fun117.dev",
+      website: "https://toakiryu.com",
     },
   ],
   release: [
